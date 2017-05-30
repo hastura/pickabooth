@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" []>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 44.2"
+	 enable-background="new 0 0 72 44.2" xml:space="preserve">
+<metadata>
+	<sfw>
+		<slices></slices>
+		<sliceSourceBounds  width="148.2" height="147.3" bottomLeftOrigin="true" x="-56.2" y="-127.5"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<path fill="#B8AF8B" d="M36,26.9L6.5,7C7.4,5.4,9,4.2,11,4.2h50c2,0,3.6,1.2,4.5,2.8L36,26.9z"/>
+<path fill="#B8AF8B" d="M66,9.4v25c0,2.8-2.2,4.8-5,4.8H11c-2.8,0-5-2.1-5-4.8v-25c0-0.5,0.1-1,0.2-1.5l29.8,20l29.8-20
+	C65.9,8.4,66,8.9,66,9.4z"/>
+</svg>

@@ -1,0 +1,298 @@
+body{
+	position:relative;
+	font-family: Helvetica, Arial, sans-serif, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed";
+	}
+
+/*logo*/
+#home{
+	width:100%;
+	height:585px;
+	
+}
+#logo1{
+	width:338px;
+	height:336px;
+	margin: 0px auto 0px auto;
+	padding-top: 30px;
+	display:none;
+}
+
+#logo2{
+	width:364px;
+	height:107px;
+	margin : 40px auto 30px auto;
+	display: none;
+}
+/*logo*/
+
+
+
+/*about us page*/
+
+#about_us{
+	width:100%;
+	height:710px;
+	padding-top:50px;
+	margin-bottom: 70px;
+}
+
+
+#up_box{
+	background-color:#F2C900;
+	width:auto;
+	height:160px;
+	background-image: url(../head/head_about%20us.svg);
+	background-repeat:no-repeat;
+	background-size: 350px 200px;
+	background-position: 20px -10px;
+	clear:both;
+}
+
+#left_box{
+	background-color: #2BB673;
+	width: 205px;
+	height: 542px;
+	float:left;
+	display: inline-block;
+	
+}
+
+
+#about_us_content{
+	width:auto;
+	height: 500px;
+	margin: 5px 20px 0 50px;
+	
+}
+h2{
+	width:auto;
+	height:auto;
+	padding: 8em 0 0 11.3em;
+}
+p{
+	width:650px;
+	height:400px;
+	padding: 0 0 0 17em;
+	text-align:left;
+	text-align:justify;
+	text-wrap:normal;}
+/*about us page*/
+
+
+ 
+/*event&promo*/
+
+#event{
+	width:100%;
+	height:700px;
+	padding-top:79px;
+}
+
+#box_1{
+	background-color:#DE6E45;
+	width:150px;
+	height:150px;
+	float:left;
+}
+
+#box_2{
+	background-color:#DE6E45;
+	width:100%;
+	height:5px;
+	/* margin-left:30px; */
+}
+
+#event_promo_svg{
+	padding: 40px 0 0 10px;
+}
+
+/*event&promo*/
+
+
+/*svg*/
+.svg{
+	width:300px;
+	height:auto;
+}
+
+.svg_2{
+	width:130px;
+	height:10px;
+}
+/*svg*/
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+
+  /* Styles */
+}
+	
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 280px) {
+		
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (min-width : 320px) {
+
+	
+  /* Styles */
+}
+
+@media only screen 
+and (max-width : 320px) {
+
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+		#event{
+	width:100%;
+	height:700px;
+	padding-top:500px;
+}
+
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+		#event{
+	width:100%;
+	height:700px;
+	padding-top:600px;
+}
+	
+  /* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 420px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:730px;
+}
+}
+@media only screen 
+and (min-width : 600px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:530px;
+}
+}
+	
+@media only screen 
+and (min-width : 800px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:530px;
+}
+}
+	
+@media only screen 
+and (min-width : 1000px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:300px;
+}
+  /* Styles */
+}
+
+@media only screen 
+and (min-width : 1024px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:300px;
+}
+  /* Styles */
+}
+
+/* Desktops and laptops 2 ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:400px;
+}	
+  /* Styles */
+}
+
+/* Desktops and laptops 3 ----------- */
+@media only screen 
+and (min-width : 1280px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:300px;
+}
+
+}
+
+  /* Styles */
+}
+
+/* Desktops and laptops 4 ----------- */
+@media only screen 
+and (min-width : 1400px) {
+	#event{
+	width:100%;
+	height:700px;
+	padding-top:50px;
+}
+
+}
+
+  /* Styles */
+
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) { 
+#event{
+	width:100%;
+	height:700px;
+	padding-top:5px;
+}
+
+  /* Styles */
+}
+
+/* iPhone 4+ ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+}

@@ -1,0 +1,301 @@
+/*extra small*/
+
+@media only screen 
+and (min-width : 320px) {
+	
+	.scrollable {
+    width: 760px;
+	height: 520px;
+    margin: 1.3em auto;
+    padding: 0;
+    border:0px solid #fff;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	z-index: -1;
+}
+.sliders {
+    max-width: 760px;
+	max-height:520px;
+    margin: 0;
+    float:left;
+}
+.items {
+    width:4000px;
+    -webkit-animation: hscroll 8s infinite;
+    -moz-animation: hscroll 8s infinite;
+    -ms-animation: hscroll 8s infinite;
+}
+
+@-webkit-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+
+@-moz-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+
+}
+
+/*end extra small*/
+
+/*small*/
+
+@media only screen 
+and (min-width : 768px) {
+	.scrollable {
+    width: 500px;
+	height: auto;
+    margin: 1.3em auto;
+    padding: 0;
+    border:0px solid #fff;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	z-index: -1;
+}
+.sliders {
+    max-width: 500px;
+	max-height:auto;
+    margin: 0;
+    float:left;
+}
+.items {
+    width:3000px;
+    -webkit-animation: hscroll 8s infinite;
+    -moz-animation: hscroll 8s infinite;
+    -ms-animation: hscroll 8s infinite;
+}
+
+@-webkit-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -500px; }
+70% { margin-left: -500px; }
+85% { margin-left: -1000px; }
+100% { margin-left: -1000px; }
+115% { margin-left: -2000px; }
+130% { margin-left: -2000px; }
+145% { margin-left: -3000px; }
+170% { margin-left: -3000px; }
+  185%  { margin-left: 0 }
+}
+
+@-moz-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -500px; }
+70% { margin-left: -500px; }
+85% { margin-left: -1000px; }
+100% { margin-left: -1000px; }
+115% { margin-left: -2000px; }
+130% { margin-left: -2000px; }
+145% { margin-left: -3000px; }
+170% { margin-left: -3000px; }
+  185%  { margin-left: 0 }
+}
+}
+
+/*end small*/
+
+/*Normal*/
+
+@media only screen 
+and (min-width : 1280px) {
+		.scrollable {
+    width: 960px;
+	height: 720px;
+    margin: 1.3em auto;
+    padding: 0;
+    border:0px solid #fff;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	z-index: -1;
+}
+.sliders {
+    max-width: 960px;
+	max-height:720px;
+    margin: 0;
+    float:left;
+}
+.items {
+    width:4000px;
+    -webkit-animation: hscroll 8s infinite;
+    -moz-animation: hscroll 8s infinite;
+    -ms-animation: hscroll 8s infinite;
+}
+
+@-webkit-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+
+@-moz-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+}
+
+/*end Normal*/
+
+/*Large*/
+
+@media only screen 
+and (min-width : 1400px) {
+	.scrollable {
+    width: 960px;
+	height: 720px;
+    margin: 1.3em auto;
+    padding: 0;
+    border:0px solid #fff;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	z-index: -1;
+}
+.sliders {
+    max-width: 960px;
+	max-height:720px;
+    margin: 0;
+    float:left;
+}
+.items {
+    width:4000px;
+    -webkit-animation: hscroll 8s infinite;
+    -moz-animation: hscroll 8s infinite;
+    -ms-animation: hscroll 8s infinite;
+}
+
+@-webkit-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+
+@-moz-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+}
+
+/*end Large*/
+
+/*Extra Large*/
+
+@media only screen 
+and (min-width : 1920px) {
+	.scrollable {
+    width: 960px;
+	height: 720px;
+    margin: 1.3em auto;
+    padding: 0;
+    border:0px solid #fff;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	z-index: -1;
+}
+.sliders {
+    max-width: 960px;
+	max-height:720px;
+    margin: 0;
+    float:left;
+}
+.items {
+    width:4000px;
+    -webkit-animation: hscroll 8s infinite;
+    -moz-animation: hscroll 8s infinite;
+    -ms-animation: hscroll 8s infinite;
+}
+
+@-webkit-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+
+@-moz-keyframes hscroll {
+  15%   { margin-left: 0; }
+30%  { margin-left: 0 }
+45%  { margin-left: -960px; }
+70% { margin-left: -960px; }
+85% { margin-left: -1920px; }
+100% { margin-left: -1920px; }
+115% { margin-left: -2880px; }
+130% { margin-left: -2880px; }
+145% { margin-left: -3840px; }
+170% { margin-left: -3840px; }
+  185%  { margin-left: 0 }
+}
+}
+
+/*end Extra Large*/
